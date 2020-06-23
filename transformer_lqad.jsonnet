@@ -16,8 +16,8 @@ local EPSILON = std.parseJson(std.extVar("EPSILON"));
   "validation_dataset_reader": self.dataset_reader + {
       "skip_invalid_examples": false,
   },
-  "train_data_path": "/net/scratch/people/plgapohl/lqad-pl-pretty/lqad-pl-pretty-train.json",
-  "validation_data_path": "/net/scratch/people/plgapohl/lqad-pl-pretty/lqad-pl-pretty-dev.json",
+  "train_data_path": "lqad-pl-pretty-train.json",
+  "validation_data_path": "lqad-pl-pretty-dev.json",
   "model": {
       "type": "transformer_qa",
       "transformer_model_name": MODEL,
