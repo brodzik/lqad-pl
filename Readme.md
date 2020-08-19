@@ -38,3 +38,9 @@ To evaluate the model on the test set:
 ```
 allennlp evaluate path/to/model/model.tar.gz ./lqad-pl-pretty-test.json
 ```
+
+## Citation
+
+```
+Aleksander Smywiński-Pohl. LQAD-PL 1.0 — Polish Question-Answering Dataset for the Legal Domain. (to appear)
+```
