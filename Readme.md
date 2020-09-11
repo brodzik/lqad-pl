@@ -28,7 +28,7 @@ To gather results of the experiments:
 allentune report --log-dir logs/lqad_search_xlmr/ --performance-metric best_validation_per_instance_em --model xlmr
 ```
 
-To plot the results of single model:
+To plot the results of a single model:
 ```
 allentune plot --data-name LQAD-PL --subplot 1 1 --result-file logs/lqad_search_xlmr/results.jsonl \
  --output-file xlmr.pdf --performance-metric-field best_validation_per_instance_em  --performance-metric accuracy
